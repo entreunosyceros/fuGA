@@ -1,5 +1,7 @@
 # fuGA — proyecto de evasión 1.0
 
+<img width="768" height="419" alt="fuGA" src="https://github.com/user-attachments/assets/0848fa5a-f62d-400e-a4a7-e0e66c2c1a96" />
+
 ![Versión](https://img.shields.io/badge/Versi%C3%B3n-1.0-yellow)
 ![Licencia](https://img.shields.io/badge/Licencia-Libre-green)
 ![Estado](https://img.shields.io/badge/Estado-En_Evasi%C3%B3n-red)
