@@ -206,14 +206,17 @@ void renderizado_fotograma(const Juego *j) {
 
         if (j->estado == ESTADO_FIN) {
             attron(COLOR_PAIR(7) | A_BOLD);
-            dibujar_texto_centrado(origen_y + ALTO_JUEGO / 2 - 2, origen_x,
+            dibujar_texto_centrado(origen_y + ALTO_JUEGO / 2 - 3, origen_x,
                                    ANCHO_JUEGO, "FIN DEL JUEGO");
             attroff(COLOR_PAIR(7) | A_BOLD);
 
+            /* Easter egg fuGA: burocracia infinita, aleteo eterno. */
             attron(COLOR_PAIR(5));
-            dibujar_texto_centrado(origen_y + ALTO_JUEGO / 2, origen_x,
-                                   ANCHO_JUEGO, "ESPACIO / W para reintentar");
+            dibujar_texto_centrado(origen_y + ALTO_JUEGO / 2 - 1, origen_x,
+                                   ANCHO_JUEGO, EASTER_EGG_XUNTA);
             dibujar_texto_centrado(origen_y + ALTO_JUEGO / 2 + 1, origen_x,
+                                   ANCHO_JUEGO, EASTER_EGG_ALETEAR);
+            dibujar_texto_centrado(origen_y + ALTO_JUEGO / 2 + 3, origen_x,
                                    ANCHO_JUEGO, "Q para salir");
             attroff(COLOR_PAIR(5));
         }

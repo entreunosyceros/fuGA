@@ -16,6 +16,10 @@
 #define NOMBRE_JUEGO     "fuGA"
 #define SUBTITULO_JUEGO  "proyecto de evasión 1.0"
 
+/* Easter egg en pantalla de fin (referencia gallega al “proyecto de evasión”). */
+#define EASTER_EGG_XUNTA    "[ Estado de la Xunta: Pendiente de resolución... ]"
+#define EASTER_EGG_ALETEAR  "[ Pulsa ESPACIO para seguir aleteando ]"
+
 /* ── Dimensiones del mundo ─────────────────────────────────────────────
  * El área jugable ocupa ANCHO_JUEGO × ALTO_JUEGO celdas de terminal.
  * FILA_SUELO reserva las dos últimas filas para el suelo animado.
