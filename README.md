@@ -1,5 +1,10 @@
 # fuGA — proyecto de evasión 1.0
 
+![Versión](https://img.shields.io/badge/Versi%C3%B3n-1.0-yellow)
+![Licencia](https://img.shields.io/badge/Licencia-Libre-green)
+![Estado](https://img.shields.io/badge/Estado-En_Evasi%C3%B3n-red)
+![Motor](https://img.shields.io/badge/Engine-ncurses-blue)
+
 Juego de evasión en terminal (C + ncurses): pájaro con gravedad, tuberías que avanzan, colisiones por rectángulos y puntuación. Pensado para aprender física sencilla y detección de choques en C.
 
 ## Requisitos
